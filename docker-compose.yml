@@ -1,0 +1,8 @@
+version: "2"
+services:
+  myapp:
+    image: demo
+    container_name: demo
+    environment:
+      - spring.application.name=sfsajfksajfisajfi
+      - db_rds_username=jdbc:mysql://mysql:3306/myapp?useUnicode=true&characterEncoding=utf8&useSSL=false
